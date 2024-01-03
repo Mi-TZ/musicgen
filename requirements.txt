@@ -1,0 +1,8 @@
+flask
+huggingface-hub
+numpy
+torchaudio
+scipy
+Gunicorn
+torch
+transformers
