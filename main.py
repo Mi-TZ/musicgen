@@ -51,4 +51,6 @@ def generate_music():
     return render_template('result.html', audio_path="musicgen_out_conditional.wav")
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    port = int(os.environ.get('PORT', 33507))
+    app.run(host='0.0.0.0', port=port)
+
